@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head><title>Yi Liu's Homepage</title></head>
+
+<style>
+  .publication {
+    margin-left:1.9em;width:90%;margin-top:-0.25cm;
+    font-size:17.px;font-family: Arial, sans-serif;
+  }
+  .research {
+    margin-left:1.9em;width:90%;margin-top:0.1cm;
+    font-size:17.px;font-family: Arial, sans-serif;
+  }
+  .section_title {
+    width:90%;margin-left:1cm;margin-right:7cm;margin-top:0.8cm;
+    font-size:21px;font-family: Arial, sans-serif;font-weight:600;
+  }
+  .subsection_title {
+    width:90%;margin-left:0.3cm;margin-right:7cm;margin-top:-0.5cm;
+    font-size:19px;font-family: Arial, sans-serif;font-weight:600;
+  }
+  #framebox {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 0 0 0 0;
+    background:#ffffff;
+    text-align: left;
+    border:1px #ffffff;
+  }
+</style>
+<!--solid #666666
+<div id="framebox"></div>-->
+
+<body>
+<table style="margin-left:1cm;margin-top:8px">
+	<tr valign=top>
+		<td align=center valign=bottom>
+			<p><img height="210" src="./yiliu_photo.png" border="0" hspace="10" alt="picture"></p>
+		</td>
+		<td align=left valign="center">
+			<p style="margin-left:3px; font-family: Arial,sans-serif;font-weight:normal;font-size:36px;">Yi Liu</p>
+			<p style="margin-left:3px; font-family: Arial,sans-serif;font-size:21px;margin-top: -0.4cm">Ph.D. Student</p>
+      <p style="margin-left:3px; font-size:17.8px;font-family:Arial,sans-serif;"> 
+        Department of Computer Science and Engineering<br>
+      <a href="https://www.ucsc.edu/" target="_blank">University of California, Santa Cruz</a><br></p>
+			<p style="margin-left:3px; font-family: Arial,sans-serif;font-size:17.1px;">
+        Email: yliu634 [at] ucsc [dot] edu <br>
+        Addr: 1156 High St, Santa Cruz, CA 95064<br>
+			</p>
+		</td>
+	</tr>
+</table>
+
+<hr style="width: 95%; height: 1px; margin-left: 0.5cm;">
+<p class="section_title">Biography</p>
+<p style="margin-left:1.2cm; width:90%; margin-right:7cm;margin-top:-0.2cm;font-family: Arial, sans-serif; font-size:17.px;">
+  I am a PhD student at University of California Santa Cruz, advised by <a href="https://users.soe.ucsc.edu/~qian/">Prof. Chen Qian</a>, 
+  and I got my Bachelor's degree in Electronic Information Engineering from the University of Science and Technology of China (<a href="https://en.ustc.edu.cn">USTC</a>) in 2020.
+  My research work mainly focuses on building high-performance systems, especially on RDMA-based disaggregated databases.
+</p>
+
+
+<hr style="width: 95%; height: 1px; margin-left: 0.5cm;">
+<!--
+<p class="section_title">Research Interests</p><br>
+<ul style="margin-top: -2.5em;">
+  <li class="research">
+    Database/Storage systems: Outback (VLDB 2025, KV store), d-HNSW (HotStorage 2025, RDMA-based vector db).<br>
+  </li>
+  <li class="research">
+    In-network Computation: Parrot hashing (ICNP 2024, P4 switch), HyperMerger (Network functions fusion). 
+  </li>
+</ul>
+-->
+
+
+<!--<hr style="width: 95%; height: 1px; margin-left: 0.5cm;">-->
+<p class="section_title">Selected Publications 
+  <span style="font-size: 0.9em;font-weight:450;">(<a href="https://scholar.google.com/citations?user=mN56qtYAAAAJ&hl=en&oi=ao">google scholar</a>,
+    <a href="./pubs.html">full list</a>)</span>
+</p><br>
+<ul style="margin-top: -2.5em;">
+  <br>
+  <li class="publication">
+    <b>[HotStorage 2025]</b>
+    Efficient Vector Search on Disaggregated Memory with d-HNSW.
+    [<a href="https://arxiv.org/pdf/2505.11783" style="text-decoration: none;" target="_blank">Paper</a>]<br>
+    <span style="margin-left: 0.15em;"></span><span style="text-decoration: underline;">Yi Liu*</span>, Fei Fang*, Chen Qian. (*Co-first)<br>
+    <i>Proceedings of the ACM Workshop on Hot Topics in Storage and File Systems, Boston, MA, July 10-11, 2025.</i>
+  </li>
+  <br>
+  <li class="publication">
+    <b>[VLDB 2025]</b>
+    Outback: Fast and Communication-efficient Index for Key-Value Store on Disaggregated Memory.
+    [<a href="https://www.vldb.org/pvldb/vol18/p335-liu.pdf" style="text-decoration: none;" target="_blank">Paper</a>]<br>
+    <span style="margin-left: 0.15em;"></span><span style="text-decoration: underline;">Yi Liu</span>, Minghao Xie, Shouqian Shi, Yuanchao Xu, Heiner Litz, Chen Qian.<br>
+    <i>International Conference on Very Large Data Bases, London, United Kingdom, September 1-5, 2025.</i>
+  </li>
+  <br>
+  <li class="publication">
+    <b>[ICNP 2024]</b>
+    Scalable, Fast, and Low-memory Table Lookups for Network Applications with one CRC-8.
+    [<a href="https://ieeexplore.ieee.org/abstract/document/10858556" style="text-decoration: none;" target="_blank">Paper</a>]<br>
+    <span style="margin-left: 0.15em;"></span><span style="text-decoration: underline;">Yi Liu</span>, Shouqian Shi, Ruilin Zhou, Yuhang Gan, Chen Qian.<br>
+    <i>IEEE International Conference on Network Protocols, Charleroi, Belgium, October 28-31, 2024.</i>
+  </li>
+  <br>
+  <li class="publication">
+    <b>[ICNP 2024]</b> Towards Practical Overlay Networks for Decentralized Federated Learning.
+    [<a href="https://ieeexplore.ieee.org/abstract/document/10858583" style="text-decoration: none;" target="_blank">Paper</a>]<br>
+    <span style="margin-left: 0.15em;">Yifan Hua, Jinlong Pang, Xiaoxue Zhang, </span><span style="text-decoration: underline;">Yi Liu</span>, Xiaofeng Shi, Bao Wang, Yang Liu, Chen Qian.<br>
+    <i>IEEE International Conference on Network Protocols, Charleroi, Belgium, October 28-31, 2024.</i>
+  </li>
+  <br>
+  <li class="publication">
+    <b>[CLOUD 2024]</b> SpotKV: Improving Read Throughput of KVS by I/O-aware Cache and Adaptive Cuckoo Filters.
+    [<a href="https://ieeexplore.ieee.org/abstract/document/10643922" style="text-decoration: none;" target="_blank">Paper</a>]<br>
+    <span style="margin-left: 0.15em;"></span><span style="text-decoration: underline;">Yi Liu</span>, Ruilin Zhou, Yuhang Gan, Chen Qian.<br>
+    <i>IEEE International Conference on Cloud Computing, Shenzhen, China, July 7-13, 2024.</i>
+  </li>
+  <br>
+  <li class="publication">
+    <b>[SIGMETRICS 2023]</b> Smash: Flexible, Fast, and Resource-efficient Placement and Lookup of Distributed Storage.
+    [<a href="https://dl.acm.org/doi/10.1145/3589977" style="text-decoration: none;" target="_blank">Paper</a>]<br>
+    <span style="margin-left: 0.15em;"></span><span style="text-decoration: underline;">Yi Liu</span>, Shouqian Shi, Minghao Xie, Heiner Litz, Chen Qian.<br>
+    <i>Proceedings of the ACM on Measurement and Analysis of Computing Systems, Orlando, FL, June 19-22, 2023. </i><br>
+    <i><b>(Selected to Communication of the ACM Research Highlights)</b></i>
+  </li>
+  <br>
+  <li class="publication">
+    <b>[IoT Journal 2022]</b> Concurrent Rate-adaptive Reading with Passive RFIDs.
+    [<a href="https://ieeexplore.ieee.org/document/9877976" style="text-decoration: none;" target="_blank">Paper</a>]<br>
+    <span style="margin-left: 0.15em;"></span>Ge Wang, Shouqian Shi, Huazhe Wang, <span style="text-decoration: underline;">Yi Liu</span>, Chen Qian, et al.<!--Cong Zhao, Wei Xi, Han Ding, Zhiping Jiang, Jizhong Zhao.--><br>
+    <i>IEEE Internet of Things Journal 10, no. 1 (2022): 499-511.</i>
+  </li>
+</ul>
+
+<!--
+</p><p style="margin-left:1cm; margin-right:7cm; font-family:Microsoft Yahei, Arial, Times, serif;">
+<b><font size="+1.8">Awards</font></b></br>
+<br>
+  <ul style="margin-top: -1.6em; font-size: 0.975em; margin-bottom: 0.9cm; font-family: Arial, sans-serif;">
+    <li style="margin-left: 2em;">ACM SIGMETRICS Travel Grant 2023 </li>
+    <li style="margin-left: 2em;">USENIX NSDI Travel Grant 2023 </li>
+  </ul>
+</br>
+-->
+
+<hr style="width: 95%; height: 1px; margin-left: 0.5cm;">
+<p class="section_title">Professional Services</p>
+<p style="margin-left:1.4cm;font-size: 17.px; width:90%; font-family: Arial, sans-serif;">Conferences: CoNEXT 2025 Shadow PC, FAST 2025 AEC</p>
+<p style="margin-left:1.4cm;font-size: 17.px; width:90%; font-family: Arial, sans-serif;">Journal Reviews:</p>
+<ul style="margin-top: -0.5em; width:90%; font-size: 17.px; font-family: Arial, sans-serif;">
+  <li style="margin-left: 2.3em;">IEEE/ACM Transactions on Networking (ToN)</li>
+  <li style="margin-left: 2.3em;">IEEE Transactions on Dependable and Secure Computing (TDSC)</li>
+  <li style="margin-left: 2.3em;">ACM Transactions on Sensor Networks (TOSN)</li>
+  <li style="margin-left: 2.3em;">IEEE Network Magzine</li>
+  <li style="margin-left: 2.3em;">Journal of Supercomputing</li>
+</ul>
+<br>
+
+
+<!--
+<hr style="width: 95%; height: 1px; margin-left: 0.5cm;">
+<p class="section_title">Teaching Assistants</p>
+<p style="margin-left:1.4cm;font-size: 19px; font-family: Arial, sans-serif;">In UC Santa Cruz:</p>
+<ul style="margin-top: -0.5em; width:90%; font-size: 17.6px; font-family: Arial, sans-serif;">
+  <li style="margin-left: 2.3em;">CSE 250A Computer Networks (2025 Winter), 
+    CSE 150 Computer Networks (2025 Spring, 2023 Spring),
+    CSE 80N Intro to Networking (2022 Fall), 
+    CSE 107 Probability and Statistics (2022 Winter),
+    CSE 16 Applied Discrete Mathematics (2021 Spring, 2021 Fall)</li>    
+</ul>
+<p style="margin-left:1.4cm;margin-top:-0.2cm; font-size: 19px; font-family: Arial, sans-serif;">In USTC:</p>
+<ul style="margin-top: -0.5em; font-size: 17.6px; font-family: Arial, sans-serif;">
+  <li style="margin-left: 2.3em;">Linear Electronic Circuits (2018 Fall)</li>
+</ul>
+<br>
+-->
+
+<div style="margin-left:1cm;margin-top:1cm;">
+<a href="https://clustrmaps.com/site/1c6hb"  title="ClustrMaps">
+  <img src="//www.clustrmaps.com/map_v2.png?d=j3DeGFAp1K9wIyGnrkrH_9_q4Kd0DDNhYY8YNB20p0A&cl=ffffff" /></a>
+</div>
+
+
+</body>
+</html>
+
